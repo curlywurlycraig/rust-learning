@@ -1,0 +1,6 @@
+[package]
+name = "mutable_vector"
+version = "0.1.0"
+authors = ["Craig Wilkinson <curlywurlycraig@gmail.com>"]
+
+[dependencies]

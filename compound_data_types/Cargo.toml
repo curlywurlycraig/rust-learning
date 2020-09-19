@@ -1,0 +1,4 @@
+[package]
+name = "compound_data_types"
+version = "0.0.1"
+authors = ["Craig Wilkinson <mail@craigwilkinson.co.uk>"]
