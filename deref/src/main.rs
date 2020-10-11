@@ -1,6 +1,27 @@
 use std::ops::{Deref, DerefMut};
 use std::fmt::Display;
 
+struct MyTest {
+    thing: i32
+}
+
+impl Deref for MyTest {
+    type Target = i32;
+
+    fn deref(&self) -> &Self::Target {
+        &1
+    }
+}
+
+impl DerefMut for MyTest {
+    fn deref_mut(&mut self) -> &mut Self::Target {
+        &mut self.thing
+    }
+}
+
+impl Dere
+
+#[derive(Debug)]
 struct MyBox<T: Display>(T);
 
 impl<T: Display> MyBox<T> {
